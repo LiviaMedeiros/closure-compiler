@@ -796,8 +796,8 @@ webCrypto.Crypto = function() {};
 
 /**
  * @see https://developer.mozilla.org/en/DOM/window.crypto.getRandomValues
- * @param {!ArrayBufferView} typedArray
- * @return {!ArrayBufferView}
+ * @param {!TypedArray} typedArray
+ * @return {!TypedArray}
  * @throws {Error}
  */
 webCrypto.Crypto.prototype.getRandomValues = function(typedArray) {};
